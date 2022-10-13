@@ -19,13 +19,56 @@
     <!-- /MYSTYLE -->
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="container-fluid d-flex align-items-center">
+            <div class="row">
+                <div class="col-2 align-items-center">
+                    <div class="logo-mobile d-lg-none">
+                        <img src="img/mobile-logo.png" alt="mobile-logo">
+                    </div>
+                    <div class="logo-desktop d-none d-lg-block">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <nav class="navbar ">
+                        <div class="container-fluid">
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di laravel" aria-label="Search">
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </header>
     <div class="page-container">
-        <div class="side-bar"></div>
-
+        <aside class="d-flex flex-column justify-content-between p-3">
+            <div class="col-12 d-flex flex-column justify-content-center py-2">
+                <div class="home-btn d-flex justify-content-center align-items-center">
+                    <button><i class="fa-solid fa-house"></i></button>
+                    <div class="btn-name d-none d-lg-inline">Home</div>
+                </div>
+                <div class="home-btn d-flex justify-content-center align-items-center">
+                    <button><i class="fa-solid fa-house"></i></button>
+                    <div class="btn-name d-none d-lg-inline">Home</div>
+                </div>
+                <div class="home-btn d-flex justify-content-center align-items-center">
+                    <button><i class="fa-solid fa-house"></i></button>
+                    <div class="btn-name d-none d-lg-inline">Home</div>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column justify-content-center py-2">
+                <div class="home-btn d-flex justify-content-center align-items-center">
+                    <button><i class="fa-solid fa-house"></i></button>
+                    <div class="btn-name d-none d-lg-inline">Home</div>
+                </div>  
+            </div>
+        </aside>
         <main></main>
-    </div>
-    </main>
+    </div>    
+    
     <!-- BOOTSTRAP-JAVA -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!-- /BOOTSTRAP-JAVA -->
