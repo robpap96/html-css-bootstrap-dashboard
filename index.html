@@ -20,9 +20,9 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid d-flex align-items-center">
-            <div class="row">
-                <div class="col-2 align-items-center">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+                <div class="col-2 col-lg-3 align-items-center">
                     <div class="logo-mobile d-lg-none">
                         <img src="img/mobile-logo.png" alt="mobile-logo">
                     </div>
@@ -30,16 +30,20 @@
                         <img src="img/logo.svg" alt="logo">
                     </div>
                 </div>
-                <div class="col-10">
-                    <nav class="navbar ">
-                        <div class="container-fluid">
-                          <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di laravel" aria-label="Search">
-                          </form>
-                        </div>
-                      </nav>
+                <div class="col-8 col-lg-6">
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di laravel" aria-label="Search">
+                            </form>
+                            </div>
+                        </nav>
+                    </div> 
                 </div>
-                <div class="col-1"></div>
+                <div class="col-2 col-lg-3">
+                    <button>prov</button>
+                </div>
             </div>
         </div>
     </header>
@@ -66,7 +70,53 @@
                 </div>  
             </div>
         </aside>
-        <main></main>
+        <main>
+            <div class="main-top px-1 py-3">
+                <div class="container-fluid">
+                    <div class="row flex-column flex-lg-row">
+                        <div class="col-5 col-sm-4 col-md-3 col-lg-8">
+                            <h2>Boolean</h2>
+                        </div>
+                        <div class="col-7 col-sm-5 col-md-4 col-lg-4">
+                            <div class="last-visited">
+                                Studenti Online negli ultimi 30 minuti
+                            </div>
+                            <div class="last-visited-number">
+                                125
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="container-fluid">
+                    <div class="left-div row">
+                        <div class="col-12 col-lg-8">
+                            <div class="row flex-column">
+                                <div class="col-12">
+                                    <div class="prossime-classi"></div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="faq"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-div row">
+                        <div class="col-12 col-lg-4">
+                            <div class="row flex-column">
+                                <div class="col-12">
+                                    <div class="todo"></div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="utenti-attivi"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </main>
     </div>    
     
     <!-- BOOTSTRAP-JAVA -->

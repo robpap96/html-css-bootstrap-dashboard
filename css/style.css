@@ -72,6 +72,23 @@ header .logo-desktop img {
 
 }
 /* /MEDIA QUERY */
-/* HEADER ELEMENTS */
+
+/* /HEADER ELEMENTS */
+
+/* MAIN ELEMENTS */
+.main-top {
+    color: white;
+    background-color: #1c72e8;
+}
+.main-top .last-visited-number {
+    font-size: 30px;
+}
+/* MEDIA QUERY */
+@media screen and (min-width: 992px) {
+
+
+}
+/* /MEDIA QUERY */
+/* /MAIN ELEMENTS */
 
 /* /ELEMENTI NON BOOTSTRAP */
