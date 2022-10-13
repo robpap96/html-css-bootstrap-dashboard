@@ -28,10 +28,10 @@ main {
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
     header {
-        height: 130px;
+        height: 100px;
     }
     .page-container {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 100px);
         
     }
     aside {
@@ -64,10 +64,19 @@ header .logo-mobile img {
 header .logo-desktop img {
     width: 250px;
 }
+header [class*="col-"] > {
+    width: 100%;
+}
+.fluid-width {
+    width: 100%;
+}
+.fluid-height {
+    height: 100%;
+}
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
     header .container-fluid {
-        height: 130px;
+        height: 100px;
     }
 
 }
@@ -81,6 +90,9 @@ header .logo-desktop img {
     background-color: #1c72e8;
 }
 .main-top .last-visited-number {
+    font-size: 30px;
+}
+.card-header .card-title {
     font-size: 30px;
 }
 /* MEDIA QUERY */
