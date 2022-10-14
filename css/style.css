@@ -100,7 +100,9 @@ header .navbar .container{
 .bell {
     color: #ff8f00;
 }
-
+.nav-right i {
+    color: #051e34;
+}
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
     header .container-fluid {
