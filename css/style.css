@@ -52,29 +52,7 @@ aside button {
 }
 /* /BUTTON */
 
-/* HEADER ELEMENTS */
-header .container-fluid {
-    height: 70px;
-}
-header .logo-mobile img {
-  width: 40px; 
-  display: block; 
-    
-}
-header .logo-desktop img {
-    width: 250px;
-}
-header [class*="col-"] > {
-    width: 100%;
-}
-header .container .form-control {
-    background-color: #e5e5e5;
-    border: none;
-    width: 100%;
-}
-header .navbar form {
-    width: 100%;
-}
+/* COMMON */
 nav ul {
     margin: 0;
     padding: 0;
@@ -91,6 +69,38 @@ nav ul {
 .fluid-height {
     height: 100%;
 }
+/* /COMMON */
+
+/* HEADER ELEMENTS */
+header .container-fluid {
+    height: 70px;
+}
+header .logo-mobile img {
+  width: 40px; 
+  display: block; 
+}
+header .logo-desktop img {
+    width: 100%;
+    max-width: 230px;
+}
+header [class*="col-"] > {
+    width: 100%;
+}
+header .container .form-control {
+    background-color: #e5e5e5;
+    border: none;
+    width: 100%;
+}
+header .navbar form {
+    width: 100%;
+}
+header .navbar .container{
+    margin-left: 0;
+}
+.bell {
+    color: #ff8f00;
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
     header .container-fluid {
