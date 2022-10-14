@@ -67,6 +67,14 @@ header .logo-desktop img {
 header [class*="col-"] > {
     width: 100%;
 }
+header .container .form-control {
+    background-color: #e5e5e5;
+    border: none;
+    width: 100%;
+}
+header .navbar form {
+    width: 100%;
+}
 nav ul {
     margin: 0;
     padding: 0;
