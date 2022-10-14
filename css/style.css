@@ -67,6 +67,16 @@ header .logo-desktop img {
 header [class*="col-"] > {
     width: 100%;
 }
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+.bg-lightgray {
+    background-color: #e5e5e5;
+}
+.rounded {
+    border-radius: 25px;
+}
 .fluid-width {
     width: 100%;
 }
@@ -83,6 +93,20 @@ header [class*="col-"] > {
 /* /MEDIA QUERY */
 
 /* /HEADER ELEMENTS */
+
+/* PAGE-CONTAINER ELEMENTS */
+aside .col-12 {
+    font-size: 25px;
+}
+aside .col-12 > * {
+    padding: 5px 0;
+}
+aside .col-12 i{
+    width: 20px;
+    margin-right: 20px;
+}
+/* /PAGE-CONTAINER ELEMENTS */
+
 
 /* MAIN ELEMENTS */
 .main-top {
