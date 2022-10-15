@@ -133,12 +133,24 @@ aside .col-12 i{
     color: white;
     background-color: #1c72e8;
 }
+
 .main-top .last-visited-number {
     font-size: 30px;
 }
 .card-header .card-title {
     font-size: 30px;
 }
+.main-top .text-bg-primary {
+    background-color: #155cbf !important;
+}
+.main-top .badge {
+    height: fit-content;
+    border-radius: 30px;
+}
+.main-top .col-6 {
+    
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
 
