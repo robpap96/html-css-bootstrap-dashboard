@@ -144,12 +144,13 @@ aside .col-12 i{
     background-color: #155cbf !important;
 }
 .main-top .badge {
+    font-weight: 400;
     height: fit-content;
     border-radius: 30px;
 }
-.main-top .col-6 {
-    
-}
+aside .signals button {
+    width: 10px;
+} 
 
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
