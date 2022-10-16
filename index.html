@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row d-flex align-items-center fluid-height">
                 <!-- LEFT-NAV -->
-                <div class="col-2 col-md-1 col-lg-3 col-xl-3 col-xxl-2" style="max-width: 300px;" >
+                <div class="col-2 col-md-1 col-lg-3 col-xl-2 col-xxl-2" style="max-width: 300px;" >
                     <div class="logo-mobile d-lg-none d-flex align-items-center">
                         <img src="img/mobile-logo.png" alt="mobile-logo">
                     </div>
@@ -33,7 +33,7 @@
                 </div>
                 <!-- /LEFT-NAV -->
                 <!-- SEARCH-BAR -->
-                <div class="col-9 col-md-10 col-lg-8 col-xl-8 col-xxl-8 ">
+                <div class="col-9 col-md-10 col-lg-8 col-xl-9 col-xxl-8 ">
                     <nav class="navbar rounded bg-lightgray">
                         <div class="container flex-nowrap">
                             <a class="navbar-brand" href="#">
@@ -47,16 +47,16 @@
                 </div>
                 <!-- /SEARCH-BAR -->
                 <!-- RIGHT-NAV -->
-                <div class="col-1 col-md-1 col-lg-1 col-xl-1 col-xxl-auto ms-xxl-auto d-flex justify-content-center align-items-center m-0">
-                    <div class="nav-right d-none d-lg-flex ps-2 pe-1">
-                        <div class="option-btn ms-2">
+                <div class="col-1 col-md-1 col-lg-1 col-xl-1 col-xxl-auto ms-xxl-auto d-flex justify-content-center align-items-center m-0 ps-lg-0">
+                    <div class="nav-right d-none d-lg-flex ps-2 pe-1 ps-lg-0">
+                        <div class="option-btn ms-">
                             <i class="fa-solid fa-list"></i>
                         </div>
                         <div class="help-btn ms-2">
                             <i class="fa-solid fa-circle-question"></i>
                         </div>
                         <div class="option2-btn ms-2">
-                            <i class="fa-regular fa-ellipsis-vertical"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                     </div>
                     <div class="dropdown pe-2">
@@ -64,9 +64,9 @@
                             <i class="fa-solid fa-bell"></i>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Change View</a></li>
-                          <li><a class="dropdown-item" href="#">Help</a></li>
-                          <li><a class="dropdown-item" href="#">Other Options</a></li>
+                          <li><a class="dropdown-item" href="#">Profilo</a></li>
+                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
                         </ul>
                       </div>
 
@@ -142,7 +142,23 @@
                                     <div class="card-header d-flex justify-content-between">
                                         <div class="card-title">Prossime Classi</div>
                                         <div class="add-class-button">
-                                            <button type="button" class="btn btn-outline-primary">＋</button>
+                                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">＋</button>
+                                        </div>
+                                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                            <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Aggiungi Classe</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div class="form-group d-flex flex-column">
+                                                    <label class=""">Nome</label>
+                                                    <input type="text" id="" placeholder="Nome" name="Nome">
+                                                </div>
+                                                <div class="form-group d-flex flex-column">
+                                                    <label class="active py-1" for="dateStandard">Data Inizio</label>
+                                                    <input type="date" id="dateStandard" name="dateStandard">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="classes p-3">
@@ -194,7 +210,7 @@
                                             </button>
                                           </h2>
                                           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                            <div class="accordion-body">Clicca sul ＋ in alto a destra della tabella "Prossime Classi".</div>
                                           </div>
                                         </div>
                                         <div class="accordion-item">
@@ -233,7 +249,7 @@
                                     <div class="card-header">
                                         <div class="card-title">Todo</div>
                                     </div>
-                                    <ul class="list-group">
+                                    <ul class="list-group p-3">
                                         <li class="list-group-item">
                                           <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
                                           <label class="form-check-label" for="firstCheckbox">First checkbox</label>
@@ -261,9 +277,9 @@
                                             <p class="card-text">Lista degli utenti attivi in piattaforma durante l'ultimo mese.</p>
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">An item</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">Gennaio: 1200</li>
+                                            <li class="list-group-item">Febbraio: 800</li>
+                                            <li class="list-group-item">Marzo: 1500</li>
                                         </ul>
                                         <div class="card-body">
                                             <a href="#" class="card-link">Visualizza report approfondito</a>
