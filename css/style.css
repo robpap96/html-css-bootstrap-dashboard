@@ -97,7 +97,7 @@ header .navbar form {
 header .navbar .container{
     margin-left: 0;
 }
-.bell {
+.dropdown i {
     color: #ff8f00;
 }
 .nav-right i {
