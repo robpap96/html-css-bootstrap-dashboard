@@ -71,6 +71,12 @@ nav ul {
 .fluid-height {
     height: 100%;
 }
+.white {
+    color: white;
+}
+.border-bottom-none {
+    border-bottom: none;
+}
 /* /COMMON */
 
 /* HEADER ELEMENTS */
@@ -157,8 +163,31 @@ main .offcanvas-body input {
 aside .signals button {
     width: 10px;
 } 
-
+table .code-icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    background-color: #f26551;
+    color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.code-icon i {
+    position: absolute;
+    left: 17%;
+    top: 24%;
+}
+table .class-number {
+    display: inline-block;
+    vertical-align: middle;
+}
 /* MEDIA QUERY */
+@media screen and (min-width: 576px) {
+  
+
+}
 @media screen and (min-width: 992px) {
 
 
