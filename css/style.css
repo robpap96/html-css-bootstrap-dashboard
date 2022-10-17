@@ -24,6 +24,7 @@ aside {
     background-color: #051e34;
     flex-shrink: 0;
     overflow: hidden;
+    position: relative;
 }
 main {
     flex-grow: 1;
@@ -182,6 +183,11 @@ table .code-icon {
 table .class-number {
     display: inline-block;
     vertical-align: middle;
+}
+aside .wave-trasparent {
+    position: absolute;
+    left: 0;
+    top: 50px;
 }
 /* MEDIA QUERY */
 @media screen and (min-width: 576px) {
