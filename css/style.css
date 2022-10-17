@@ -150,6 +150,10 @@ aside .col-12 i{
     height: fit-content;
     border-radius: 30px;
 }
+main .offcanvas-body input {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
 aside .signals button {
     width: 10px;
 } 
